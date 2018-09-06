@@ -1,0 +1,18 @@
+resource "oci_identity_compartment" "CompProdInternal" {
+        #Required
+        compartment_id = "ocid1.tenancy.oc1..aaaaaaaad6wfivyyfy4hiok7fswwqrg6egvcb6yy4yvn6tz3d6e5vdsr3tmvby62la"
+        description = "Production  Application Internal"
+        name = "CompProdInternal"
+}
+resource "oci_identity_compartment" "CompProdExternal" {
+        #Required
+        compartment_id = "ocid1.tenancy.oc1..aaaaaaaad6wfyyivfy4hiok7fswwqrg6egvcb64yyyvn6tz3d6e5vdsr3tmvby62la"
+        description = "Production  Application External"
+        name = "CompProdExternal"
+}
+resource "oci_identity_compartment" "CompProdDB" {
+        #Required
+        compartment_id = "ocid1.tenancy.oc1..aaaaaaaad6wfiyyvfy4hiok7fswwqrg6egvcb64yvyyn6tz3d6e5vdsr3tmvby62la"
+        description = "Production Database"
+        name = "CompProdDB"
+}
