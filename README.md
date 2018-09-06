@@ -1,2 +1,2 @@
 # -Terrafrom-OCI-Examples
-Terrafrom Templates of OCI
+ Just some template examples for initial testing .
